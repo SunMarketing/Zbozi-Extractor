@@ -1,0 +1,25 @@
+{
+    "config": "zbozi-extractor-config",
+    "configData": {
+        "storage": {
+            "input": {
+                "tables": [
+                    {
+                        "source": "in.c-main.test",
+                        "destination": "source.csv"
+                    }
+                ]
+            },
+            "output": {
+                "tables": [
+                    {
+                        "source": "destination.csv",
+                        "destination": "out.c-main.test"
+                    }                    
+                ]
+            }
+        },
+        "parameters": {
+        }
+    }
+}
