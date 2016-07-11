@@ -1,4 +1,4 @@
-# zbozi-extractor
+# Zboží.cz extractor for Keboola
 KBC Docker app for extracting data from Zboží.cz (http://zbozi.cz)
 
 The Extractor gets list of campaign stats for previous day and saves the data to Storage API. Date of downloaded stats can be changed in configuration.
